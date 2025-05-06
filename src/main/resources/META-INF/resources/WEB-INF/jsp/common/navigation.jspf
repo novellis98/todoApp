@@ -1,0 +1,20 @@
+<nav class="navbar navbar-dark bg-dark mb-4 px-4 py-2">
+    <a class="navbar-brand text-uppercase fw-semibold" href="/">Todo App</a>
+
+    <div class="d-flex flex-grow-1 ms-4">
+        <ul class="navbar-nav flex-row gap-3">
+            <li class="nav-item">
+                <a class="nav-link text-light" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="/list-todos">Todos</a>
+            </li>
+        </ul>
+    </div>
+
+     <ul class="navbar-nav flex-row">
+          <li class="nav-item ms-3">
+              <a class="nav-link text-danger" href="/logout">Logout</a>
+          </li>
+      </ul>
+  </nav>

@@ -1,0 +1,15 @@
+spring.application.name=primo-progetto
+#server.port = 8080
+spring.mvc.view.prefix=WEB-INF/jsp/
+spring.mvc.view.suffix=.jsp
+logging.level.org.springframework=info
+
+spring.mvc.format.date=dd-MM-yyyy
+
+#spring.datasource.url=jdbc:h2:mem:testdb
+spring.jpa.defer-datasource-initialization=true
+
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=your_url
+spring.datasource.username=your_user
+spring.datasource.password=your_password

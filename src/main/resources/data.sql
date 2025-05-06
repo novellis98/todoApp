@@ -1,0 +1,2 @@
+insert into todo (id, username, description, target_date,done)values(10001, 'umb', 'Learn CSS',  CURRENT_DATE(), false )
+insert into todo (id, username, description, target_date,done)values(10002, 'umb','Learn JavaScript', CURRENT_DATE(), false )
